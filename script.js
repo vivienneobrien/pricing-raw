@@ -1,5 +1,3 @@
-// // document.body.innerHTML = '<h1>yooo</h1>'
-
 let yearly = false;
 
 document
