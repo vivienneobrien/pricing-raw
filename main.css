@@ -6,18 +6,19 @@
 }
 
 body {
-  background: rgba(221, 216, 216, 0.959);
+  background: white;
 }
 
 .switch-button {
-  background: rgba(255, 255, 255, 0.56);
-  border-radius: 30px;
+  background: #F5F5F7;
+  border: 2px #F5F5F7 solid;
+  border-radius: 8px;
   overflow: hidden;
   width: 240px;
   text-align: center;
   font-size: 10px;
   letter-spacing: 1px;
-  color: #155fff;
+  color: black;
   position: relative;
   padding-right: 120px;
   position: relative;
@@ -34,6 +35,7 @@ body {
   justify-content: center;
   z-index: 3;
   pointer-events: none;
+  font-weight: bold;
 }
 .switch-button-checkbox {
   cursor: pointer;
@@ -65,7 +67,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  border-radius: 30px;
+  border-radius: 8px;
   transform: translateX(0);
   transition: transform 300ms;
 }
@@ -87,33 +89,6 @@ h1 {
   width: 100%;
   margin-top: 40px;
 }
-
-.toggle-btn {
-  width: 80px;
-  height: 40px;
-  background: grey;
-  border-radius: 30px;
-  padding: 5px;
-  transition: all 300ms ease-in-out;
-}
-
-.toggle-btn > .inner-circle {
-  width: 30px;
-  height: 30px;
-  background: #fff;
-  border-radius: 50%;
-  transition: all 300ms ease-in-out;
-}
-
-/*when active the toggle turns blue*/
-.toggle-btn.active {
-  background: #00acee;
-}
-
-.toggle-btn.active > .inner-circle {
-  margin-left: 40px;
-}
-
 h5 {
   color: #f94e4e;
   background-color: #fee2e2;
